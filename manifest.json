@@ -1,6 +1,6 @@
 {
   "name": "Hide GitHub Unread Notifications Indicator",
-  "description": "Get less distracted by hiding the blue circle indicator on the bell icon  when you have unread GitHub notifications",
+  "description": "Get less distracted by hiding the blue circle indicator on the bell icon when you have unread GitHub notifications",
   "version": "0.0.1",
   "manifest_version": 3,
   "permissions": [
