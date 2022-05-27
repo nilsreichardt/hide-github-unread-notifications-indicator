@@ -1,0 +1,29 @@
+{
+  "name": "Hide GitHub Unread Notifications Indicator",
+  "description": "Get less distracted by hiding the blue circle indicator on the bell icon  when you have unread GitHub notifications",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab"
+  ],
+  "icons": {
+    "16": "icons/16px.png",
+    "32": "icons/32px.png",
+    "48": "icons/48px.png",
+    "128": "icons/128px.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*",
+        "https://gist.github.com/*"
+      ],
+      "exclude_matches": [
+        "https://*/login/*"
+      ],
+      "js": [
+        "script.js"
+      ]
+    }
+  ]
+}
