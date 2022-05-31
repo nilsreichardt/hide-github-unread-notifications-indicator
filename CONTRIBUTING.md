@@ -1,4 +1,4 @@
-# Contribute
+# Contributing
 Hi! 👋
 
 All PRs are welcome and would help to improve this extension.
